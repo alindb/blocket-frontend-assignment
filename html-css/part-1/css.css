@@ -1,0 +1,36 @@
+body {
+  background-color: lightgrey;
+  padding: 100px;
+  margin: 0;
+  max-width: calc(100vw - 200px);
+  max-height: calc(100vh - 200px);
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  min-height: 420px;
+  min-width: 320px;
+}
+
+.left {
+  background-color: lightcoral;
+  height: 200px;
+  width: 100px;
+}
+
+.middle {
+  background-color: lightgreen;
+  height: 400px;
+  min-width: 100px;
+  flex: 1;
+}
+
+.right {
+  background-color: lightblue;
+  height: 300px;
+  width: 100px;
+}
